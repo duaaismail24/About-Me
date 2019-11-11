@@ -1,0 +1,23 @@
+html {
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Beautiful-Stars-Landscape-Background-Image-.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-style: inherit;
+    color: aliceblue;
+
+
+
+}
+title {
+    color: white;
+    size: 500px;
+}
+header {
+    color: white;
+
+}
+p {
+    color:white;
+
+}
