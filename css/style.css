@@ -5,10 +5,13 @@ html {
     background-position: center;
     font-style: inherit;
     color: aliceblue;
+}
 
-
+h1 img {
+    float: right;
 
 }
+
 title {
     color: white;
     size: 500px;
@@ -21,3 +24,8 @@ p {
     color:white;
 
 }
+h2 p a {
+    color: red;
+
+}
+
