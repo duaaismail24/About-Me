@@ -7,64 +7,142 @@ while (parseInt(userName)) {
 
 alert('welcome' + "  " + userName + '  ' + 'Lets see how much you can guse information about me !');
 
-var counter = 0;
+var counter = 0
 
-var quize = [
-    ["Do you think that I'm a healthy person?", "Right .. 80% yes Iam *.*", " wrong ,I could be ill ", "Try again"], ["Do you think that I go to GYM ?", "Yes .. Although I don\'t go there regularly ", "COMMON !!", "Try again"], ["do you think that I like English?", "yes I do !", "wrong Iam in love with it", " Try again"], [" Do you think that I have a pet??", "Oops I don\'t, a bug could make me run for 500 mile hhhh!!", "wrong ", " Try again"], ["do you think that my hoppy is playing chess?", " yup , once I was on the top in my university ", "wrong", "Try again"], ["Do you think that im graduated?", "yes i did it on January", "wrong", "Try again"]]
-function guse() {
-    for (var i = 0; i < 5; i++) {
-        var exactArray = quize[i];
-        var questions = exactArray[0];
-        var posetive = exactArray[1];
-        var negative = exactArray[2];
-        var defultReply = exactArray[3];
-        var userName = prompt(questions);
-        userName = userName.toLowerCase();
-        switch (userName) {
-            case "yes":
-            case "y":
-                alert(posetive);
-                counter = counter + 1;
-                //    console.log(userName);
-                break;
-            case "no":
-            case "n":
-                alert(negative);
-                console.log(userName);
-                break;
-            default:
-                alert(defultReply);
-                //  console.log(userName);
-                break;
-        }
-    }
+///Q1
+var quize1 = prompt('Do you think that Im a healthy person?');
+console.log(quize1);
+quize1 = quize1.toLowerCase();
+switch (quize1) {
+    case 'yes':
+    case 'y':
+        case 'YES':
+            case 'Y':
+    alert('Right .. 80% yes Iam *.*');
+    alert("Your score is: " + counter++);
+break;
+    case 'NO':
+    case 'n':
+    case 'no':
+    case 'N':
+     alert('Seriously !!');
+     break;
+     default:
+         alert("Answer with yes or no please");
 }
-guse();
-alert("Your score is: " + counter);
-//6
-function high() {
-    for (var high = 0; high < 4; high++) {
-        var highest = prompt("Guess what is my tall ! Remember  : You have only 4 trials, Hint: its between 160-167")
-        if (highest == 163) {
-            alert("Great! Its 163 ");
-            counter = counter + 1;
-            // console.log(old);
+
+    var quize2 = prompt("Do you think that I go to GYM ?");
+   console.log(quize2);
+    quize2 = quize2.toLowerCase();
+    switch (quize2) {
+        case 'yes':
+        case 'y':
+            case 'YES':
+                case 'Y':
+
+        alert('Yes .. Although I don\'t go there regularly');
+        alert("Your score is: " + counter++);
+    break;
+        case 'NO':
+        case 'n':
+        case 'no':
+        case 'N':
+         alert('"COMMON !!" !!');
+         break;
+         default:
+             alert("Answer with yes or no please");
+
+    }
+
+        var quize3 = prompt( 'do you think that I like English');
+        console.log(quize3);
+        quize3 = quize3.toLowerCase();
+        switch (quize3) {
+            case 'yes':
+            case 'y':
+                case 'YES':
+                    case 'Y':
+
+            alert('yes I do !');
+            alert("Your score is: " + counter++);
+
             break;
-        } else if (highest > 163) {
-            alert("too high");
-            //    console.log(old);
-        } else if (highest < 163) {
-            alert(" too low");
-            //    console.log(old);
+            case 'NO':
+            case 'n':
+            case 'no':
+            case 'N':
+             alert('"COMMON !!" !!');
+             break;
+             default:
+                 alert("Answer with yes or no please");
+
         }
+
+
+        var quize4 = prompt( 'Do you think that I have a pet?');
+        console.log(quize4);
+        quize4 = quize4.toLowerCase();
+        switch (quize4) {
+            case 'yes':
+            case 'y':
+                case 'YES':
+                    case 'Y':
+
+            alert('Oops I don\'t, a bug could make me run for 500 mile hhhh!!');
+            alert("Your score is: " + counter++);
+            break;
+            case 'NO':
+            case 'n':
+            case 'no':
+            case 'N':
+             alert('Right gussing');
+             break;
+             default:
+                 alert("Answer with yes or no please");
+
+        }
+        var quize5 = prompt( 'Do you think that I graduated?');
+        console.log(quize5);
+        quize5 = quize5.toLowerCase();
+        switch (quize5) {
+            case 'yes':
+            case 'y':
+                case 'YES':
+                    case 'Y':
+
+            alert('yes i did it on January');
+            alert("Your score is: " + counter++);
+            break;
+            case 'NO':
+            case 'n':
+            case 'no':
+            case 'N':
+             alert('wrong"');
+             break;
+             default:
+                 alert("Answer with yes or no please");
+
+        }
+for (var times = 0; times < 4; times++) {
+    var highest = prompt("Guess what is my tall ! Remember  : You have only 4 trials, Hint: its between 160-167")
+    if (highest == 163) {
+        alert("Great! Its 163 ");
+        
+        // console.log(old);
+        break;
+    } else if (highest > 163) {
+        alert("too high");
+        //    console.log(old);
+    } else if (highest < 163) {
+        alert(" too low");
+
+        //    console.log(old);
     }
-    alert("Your score is: " + counter);
 }
-high();
+alert('Its 163, in the average right');
+alert('Your score is: ' + counter++);
 
-
-function playingGame() {
-    var play = ['grape', 'mango', 'strawberries', 'banana', 'orange', 'apple'];
+var play = ['grape', 'mango', 'strawberries', 'banana', 'orange', 'apple'];
     for (var trailes = 0; trailes < 6; trailes++) {
         var goPlay = prompt("And now you have to gusse which fruits are my favorite?");
         switch (goPlay) {
@@ -86,8 +164,6 @@ function playingGame() {
         }
     }
     alert("  My favorite fruites are grape, mango, strawberries, banana, orange, apple");
-}
-playingGame();
 
 alert("You got " + counter + " points .. I Hope you enjoed it");
 alert("Happy for being you here " + user);
