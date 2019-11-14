@@ -123,6 +123,9 @@ break;
                  alert("Answer with yes or no please");
 
         }
+        function myhighest() {
+            
+       
 for (var times = 0; times < 4; times++) {
     var highest = prompt("Guess what is my tall ! Remember  : You have only 4 trials, Hint: its between 160-167")
     if (highest == 163) {
@@ -139,8 +142,12 @@ for (var times = 0; times < 4; times++) {
         //    console.log(old);
     }
 }
+}
+myhighest();
 alert('Its 163, in the average right');
 alert('Your score is: ' + counter++);
+function fruit() {
+    
 
 var play = ['grape', 'mango', 'strawberries', 'banana', 'orange', 'apple'];
     for (var trailes = 0; trailes < 6; trailes++) {
@@ -163,6 +170,8 @@ var play = ['grape', 'mango', 'strawberries', 'banana', 'orange', 'apple'];
                 break;
         }
     }
+}
+fruit();
     alert("  My favorite fruites are grape, mango, strawberries, banana, orange, apple");
 
 alert("You got " + counter + " points .. I Hope you enjoed it");
