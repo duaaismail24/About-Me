@@ -10,6 +10,9 @@ alert('welcome' + "  " + userName + '  ' + 'Lets see how much you can guse infor
 var counter = 0
 
 ///Q1
+function q1() {
+    
+
 var quize1 = prompt('Do you think that Im a healthy person?');
 console.log(quize1);
 quize1 = quize1.toLowerCase();
@@ -30,6 +33,10 @@ break;
      default:
          alert("Answer with yes or no please");
 }
+}
+q1();
+function q2() {
+    
 
     var quize2 = prompt("Do you think that I go to GYM ?");
    console.log(quize2);
@@ -53,6 +60,11 @@ break;
              alert("Answer with yes or no please");
 
     }
+}
+q2();
+function q3() {
+    
+
 
         var quize3 = prompt( 'do you think that I like English');
         console.log(quize3);
@@ -77,8 +89,11 @@ break;
                  alert("Answer with yes or no please");
 
         }
-
-
+    }
+    q3();
+    function q4() {
+        
+    
         var quize4 = prompt( 'Do you think that I have a pet?');
         console.log(quize4);
         quize4 = quize4.toLowerCase();
@@ -101,6 +116,11 @@ break;
                  alert("Answer with yes or no please");
 
         }
+    }
+    q4();
+    function q5() {
+        
+    
         var quize5 = prompt( 'Do you think that I graduated?');
         console.log(quize5);
         quize5 = quize5.toLowerCase();
@@ -123,6 +143,11 @@ break;
                  alert("Answer with yes or no please");
 
         }
+    }
+    q5();
+        function myhighest() {
+            
+       
 for (var times = 0; times < 4; times++) {
     var highest = prompt("Guess what is my tall ! Remember  : You have only 4 trials, Hint: its between 160-167")
     if (highest == 163) {
@@ -139,8 +164,12 @@ for (var times = 0; times < 4; times++) {
         //    console.log(old);
     }
 }
+}
+myhighest();
 alert('Its 163, in the average right');
 alert('Your score is: ' + counter++);
+function fruits() {
+    
 
 var play = ['grape', 'mango', 'strawberries', 'banana', 'orange', 'apple'];
     for (var trailes = 0; trailes < 6; trailes++) {
@@ -163,6 +192,8 @@ var play = ['grape', 'mango', 'strawberries', 'banana', 'orange', 'apple'];
                 break;
         }
     }
+}
+fruits();
     alert("  My favorite fruites are grape, mango, strawberries, banana, orange, apple");
 
 alert("You got " + counter + " points .. I Hope you enjoed it");
