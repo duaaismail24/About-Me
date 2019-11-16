@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
 html {
-    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Beautiful-Stars-Landscape-Background-Image-.jpeg");
+    background-image: url("https://img.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg?size=626&ext=jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -7,21 +10,30 @@ html {
     color: aliceblue;
 }
 
-h1 img {
-    float: right;
+ img {
+    margin: 100px;
+    margin-left: 500px;
+    width: 350px;
+    height: 450px;
+    display: block;
+
 
 }
 
 title {
     color: white;
     size: 500px;
+    text-align: center;
 }
 header {
     color: white;
-
+text-align: center;
+font-size: 100px;
 }
 p {
     color:white;
+    text-align: center;
+    size: 450px;
 
 }
 h2 p a {
@@ -29,3 +41,16 @@ h2 p a {
 
 }
 
+p {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    size: 350px;
+
+}
+nav {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+
+}
